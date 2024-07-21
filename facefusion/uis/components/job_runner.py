@@ -54,6 +54,8 @@ def render() -> None:
 					visible = False
 				)
 		register_ui_component('job_runner_wrapper', JOB_RUNNER_WRAPPER)
+		register_ui_component('job_runner_job_action_dropdown', JOB_RUNNER_JOB_ACTION_DROPDOWN)
+		register_ui_component('job_runner_job_id_dropdown', JOB_RUNNER_JOB_ID_DROPDOWN)
 
 
 def listen() -> None:

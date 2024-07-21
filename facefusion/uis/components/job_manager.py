@@ -63,6 +63,10 @@ def render() -> None:
 				size = 'sm'
 			)
 		register_ui_component('job_manager_wrapper', JOB_MANAGER_WRAPPER)
+		register_ui_component('job_manager_job_id_textbox', JOB_MANAGER_JOB_ID_TEXTBOX)
+		register_ui_component('job_manager_job_action_dropdown', JOB_MANAGER_JOB_ACTION_DROPDOWN)
+		register_ui_component('job_manager_job_id_dropdown', JOB_MANAGER_JOB_ID_DROPDOWN)
+		register_ui_component('job_manager_step_index_dropdown', JOB_MANAGER_STEP_INDEX_DROPDOWN)
 
 
 def listen() -> None:
