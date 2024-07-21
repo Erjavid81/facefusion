@@ -44,8 +44,6 @@ ComponentName = Literal\
 	'job_manager_wrapper',
 	'job_manager_job_action_dropdown',
 	'job_manager_job_id_textbox',
-	'job_manager_job_id_dropdown',
-	'job_manager_step_index_dropdown',
 	'job_list_job_status_checkbox_group',
 	'lip_syncer_model_dropdown',
 	'output_image',
